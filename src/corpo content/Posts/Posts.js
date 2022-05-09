@@ -1,6 +1,8 @@
 import Fundoacoes from "./Fundoacoes";
+import React from "react";
 
 function Post (props) {
+
     return (
         <div class="post">
             <div class="topo">
@@ -50,6 +52,7 @@ export default function Posts () {
             quantidadeCurtiu: "99.159"
         }
     ]
+
     return (
         <div class="posts">
             {posts.map(item => <Post imageTopo={item.imageTopo} name={item.name} imageMain={item.imageMain} imageCurtiu={item.imageCurtiu} curtiu={item.curtiu} quantidadeCurtiu={item.quantidadeCurtiu} />)}
