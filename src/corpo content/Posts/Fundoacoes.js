@@ -14,7 +14,6 @@ export default function Fundoacoes () {
     const [cor, setCor] = React.useState("");
 
     function curtir () {
-        console.log(icone)
         if(icone === "heart-outline") {
             setIcone("heart")
             setCor("curtido md hydrated")
