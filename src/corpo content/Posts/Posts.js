@@ -5,7 +5,7 @@ function Post (props) {
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                    <img src={props.imageTopo} />
+                    <img src={props.imageTopo} alt="User" />
                     {props.name}
                 </div>
                 <div class="acoes">
@@ -14,14 +14,14 @@ function Post (props) {
             </div>
 
             <div class="conteudo">
-                <img src={props.imageMain} />
+                <img src={props.imageMain} alt="Postagem" />
             </div>
 
             <div class="fundo">
                 <Fundoacoes />
 
                 <div class="curtidas">
-                    <img src={props.imageCurtiu} />
+                    <img src={props.imageCurtiu} alt="User" />
                     <div class="texto">
                         Curtido por <strong>{props.curtiu}</strong> e <strong>outras {props.quantidadeCurtiu} pessoas</strong>
                     </div>

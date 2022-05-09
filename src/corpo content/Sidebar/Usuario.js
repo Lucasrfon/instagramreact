@@ -1,7 +1,7 @@
 function User (props) {
     return (
         <div class="usuario">
-            <img src={props.image} />
+            <img src={props.image} alt="User" />
             <div class="texto">
                 <strong>{props.conta}</strong>
                 {props.nome}
